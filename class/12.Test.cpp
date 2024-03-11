@@ -29,7 +29,7 @@ public:
         homeTeamScore = 0;
         awayTeamScore = 0;
 
-        homeTeamScore = homescore + homescore;
+        homeTeamScore +=  homescore;
         awayTeamScore += awayscore;
     }
 
@@ -63,7 +63,7 @@ return 0;
 Home Team : Barcelona
 Players : -Messi
 -Ronaldo
-Home Team score : 4
+Home Team score : 2
 Away team : Barcelona
 Players : -Neymar
 Away Team score 1
